@@ -4,21 +4,21 @@ import type { LucideIcon } from "lucide-react";
 const problems: { icon: LucideIcon; title: string; text: string; color: string; gradient?: string }[] = [
   {
     icon: EyeOff,
-    title: "Du bist unsichtbar.",
-    text: "ChatGPT & Co kennen deine Websiteangebote nicht oder falsch. Sie empfehlen stattdessen deine Konkurrenz. Täglich. Ohne dass du es merkst.",
+    title: "Gäste fragen ChatGPT statt Google.",
+    text: "\"Bestes italienisches Restaurant in München\" — ChatGPT antwortet sofort. Wenn dein Restaurant nicht in der Antwort ist, existierst du für diese Gäste nicht.",
     color: "#00FFE0",
     gradient: "linear-gradient(180deg, #00AAFF, #00FF88)",
   },
   {
     icon: Ban,
-    title: "Du bist nicht nutzbar.",
-    text: "Ein KI-Agent will für deinen Kunden buchen oder kaufen. Deine Website ist nicht agent-ready. Der Auftrag geht an einen Wettbewerber.",
+    title: "KI-Agenten buchen bald Tische.",
+    text: "Nutzer sagen: \"Reservier mir einen Tisch für Freitag, italienisch, Innenstadt.\" Der KI-Agent bucht — aber nur bei Restaurants, die digital buchbar und agent-ready sind.",
     color: "#FFE600",
   },
   {
     icon: ShieldAlert,
-    title: "Du bist angreifbar.",
-    text: "KI öffnet natürlich auch neue Angriffsflächen. Prompt Injection, Datenmissbrauch, Identitätsdiebstahl. Die meisten KMUs wissen nicht einmal, dass sie und ihre Kunden betroffen sind.",
+    title: "Fake-Bewertungen bedrohen deinen Ruf.",
+    text: "KI kann massenhaft gefälschte Bewertungen erzeugen. Dein guter Ruf steht auf dem Spiel — und die meisten Gastronomen merken es zu spät.",
     color: "#FF1744",
   },
 ];

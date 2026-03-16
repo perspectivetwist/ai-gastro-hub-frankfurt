@@ -5,15 +5,16 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ASD – AI Shift Drift | Dein Wachstumsökosystem für die KI-Ära",
+  title: "KI-Sichtbarkeit für Restaurants | AI Shift Drift",
   description:
-    "Der AI Drift ist kein Trend. Er ist ein Systemwandel. ASD verbindet AI Wake, Slipstream und Quantum – das Wachstumsökosystem für deutschen KMU.",
+    "Kostenlose KI-Scanner für Restaurants: AEO, GEO, Agent-Readiness und Sicherheit. Jetzt prüfen ob ChatGPT dein Restaurant empfiehlt.",
+  robots: { index: true, follow: true },
   openGraph: {
-    title: "ASD – AI Shift Drift",
+    title: "KI-Sichtbarkeit für Restaurants | AI Shift Drift",
     description:
-      "Sichtbar. Nutzbar. Sicher. Dein Wachstumsökosystem. Der neue Maßstab.",
+      "Kostenlose KI-Scanner für Restaurants: AEO, GEO, Agent-Readiness und Sicherheit. Jetzt prüfen ob ChatGPT dein Restaurant empfiehlt.",
     locale: "de_DE",
-    url: "https://ai-shift-drift.vercel.app",
+    url: "https://ai-gastro-hub.vercel.app",
   },
 };
 

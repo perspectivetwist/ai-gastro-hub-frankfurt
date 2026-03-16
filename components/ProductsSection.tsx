@@ -6,14 +6,14 @@ const forces = [
     products: [
       {
         name: "AEO Scanner",
-        desc: "Wie gut zitiert ChatGPT deinen KI-Auftritt? 8 Kriterien. Score in Sekunden. Sonst empfiehlt ChatGPT die Konkurrenz.",
-        url: "https://aeo-transformer.vercel.app",
+        desc: "Kann ChatGPT deine Website lesen? Prüfe in Sekunden, ob KI-Systeme dein Restaurant finden und korrekt empfehlen — oder ob Gäste zur Konkurrenz geschickt werden.",
+        url: "https://aeo-gastro.vercel.app",
         cta: "AEO scannen",
       },
       {
         name: "GEO Scanner",
-        desc: "Kennt ChatGPT deinen Ruf – Bewertungen, Erwähnungen, Profil? Ohne Profil existierst du für KI nicht.",
-        url: "https://geo-transformer.vercel.app",
+        desc: "Kennt ChatGPT deinen Ruf? Bewertungen, Erwähnungen, Google-Profil — ohne digitale Reputation existiert dein Restaurant für KI-Systeme nicht.",
+        url: "https://geo-gastro.vercel.app",
         cta: "GEO scannen",
       },
     ],
@@ -25,8 +25,8 @@ const forces = [
     products: [
       {
         name: "Agent Ready Scanner",
-        desc: "Können KI-Agenten auf deinem KI-Auftritt tatsächlich handeln – buchen, kaufen, anfragen? Der Auftrag geht woanders hin.",
-        url: "https://agentready-transformer.vercel.app",
+        desc: "Kann KI bei dir reservieren? Bald buchen KI-Agenten Tische für Nutzer. Wenn dein Restaurant nicht agent-ready ist, geht die Reservierung an die Konkurrenz.",
+        url: "https://agentready-gastro.vercel.app",
         cta: "Jetzt prüfen",
       },
     ],
@@ -38,9 +38,9 @@ const forces = [
     products: [
       {
         name: "Security Scanner",
-        desc: "Du existierst überall gleichzeitig. Quantum misst wie sicher du in der Agenten-Welt bist. Neue Angriffsflächen die du nicht siehst.",
-        url: "https://quantum-scanner.vercel.app",
-        cta: "Quantum scannen",
+        desc: "Ist dein Restaurant geschützt? KI öffnet neue Angriffsflächen — Fake-Bewertungen, manipulierte Empfehlungen, Datenmissbrauch. Prüfe deine Sicherheit.",
+        url: "https://aisecurity-gastro.vercel.app",
+        cta: "Sicherheit prüfen",
       },
     ],
   },

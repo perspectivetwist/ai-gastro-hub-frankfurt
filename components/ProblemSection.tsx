@@ -6,32 +6,32 @@ export default function ProblemSection() {
       style={{ zIndex: 1 }}
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-8">
-        KI-Systeme ersetzen deine bisherigen,
+        KI empfiehlt täglich Restaurants.
         <br />
-        digitalen Umsatzkanäle. <span className="gradient-accent">Jetzt.</span>
+        <span className="gradient-accent">Deins auch?</span>
       </h2>
 
       <div className="space-y-6 mb-16 max-w-3xl">
         <div className="flex gap-0 rounded-lg overflow-hidden">
           <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
           <p className="text-xl leading-relaxed pl-4" style={{ color: "#cccccc" }}>
-            Heute existiert dein Unternehmen im Netz.
+            Heute suchen Gäste dein Restaurant noch bei Google.
           </p>
         </div>
         <div className="flex gap-0 rounded-lg overflow-hidden">
           <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
           <p className="text-xl leading-relaxed pl-4" style={{ color: "#cccccc" }}>
-            <span className="font-semibold" style={{ color: "#ffffff" }}>Morgen entscheiden KI-Systeme,</span>
+            <span className="font-semibold" style={{ color: "#ffffff" }}>Morgen fragen sie ChatGPT:</span>
             <br />
-            auf welchen Websites Agenten Umsätze generieren &amp; wer noch sichtbar bleibt.
+            &quot;Welches Restaurant in meiner Nähe hat die beste Pasta?&quot; — und KI entscheidet, wen sie empfiehlt.
           </p>
         </div>
         <div className="flex gap-0 rounded-lg overflow-hidden">
           <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
           <p className="text-xl leading-relaxed pl-4" style={{ color: "#cccccc" }}>
-            <span className="font-semibold" style={{ color: "#ffffff" }}>Die bittere Realität,</span>
+            <span className="font-semibold" style={{ color: "#ffffff" }}>70% der Restaurants sind unsichtbar</span>
             <br />
-            ausschließlich diejenigen, die sich an diesen Ökonomiewandel angepasst haben.
+            für KI-Systeme. Die Gäste gehen zur Konkurrenz — ohne dass du es merkst.
           </p>
         </div>
       </div>
@@ -39,16 +39,16 @@ export default function ProblemSection() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {[
           {
-            stat: "68%",
-            text: "der KMU-Websites verzeichnen bereits signifikante Traffic-Verluste durch KI-Suchfunktionen",
+            stat: "70%",
+            text: "der Restaurants sind für KI-Suchen komplett unsichtbar — ChatGPT kennt sie nicht",
           },
           {
-            stat: "10:1 → 5:1",
-            text: "Das Verhältnis Google-Nutzer zu KI-Such-Nutzer hat sich in 12 Monaten halbiert",
+            stat: "3x",
+            text: "mehr Nutzer fragen KI nach Restaurant-Empfehlungen als vor 12 Monaten",
           },
           {
             stat: "+721%",
-            text: "Wachstum der KI-Suchplattformen in 12 Monaten. Der Wandel passiert gerade.",
+            text: "Wachstum der KI-Suchplattformen in 12 Monaten. KI empfiehlt täglich Restaurants — ohne dich.",
           },
         ].map((item, i) => (
           <div
