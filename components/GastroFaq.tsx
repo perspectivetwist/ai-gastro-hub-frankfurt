@@ -4,36 +4,48 @@ import { useState } from 'react'
 
 const faqItems = [
   {
-    question: 'Was bedeutet AI-Readiness für die Gastronomie?',
-    answer: 'AI-Readiness heißt: Dein Restaurant ist auf allen drei Ebenen für die KI-Ära vorbereitet: sichtbar für KI-Suchmaschinen wie ChatGPT, Gemini und Perplexity, nutzbar für KI-Agenten bei automatischen Reservierungen und sicher vor KI-Angriffen wie Fake-Bewertungen und Datenmissbrauch.',
+    question: 'Was macht AI-Shift-Drift einzigartig?',
+    answer: 'AI-Shift-Drift ist kein Webdesign-Tool. AI-Shift-Drift misst, ob KI-Systeme dein Restaurant kennen, deine Website nutzen können, und ob du sicher aufgestellt bist für eine Welt, in der Agenten und Maschinen im Netz handeln. Vier Scanner, drei Scores, eine Wahrheit. Und einen konkreten Aktionsplan.',
   },
   {
-    question: 'Welche Scanner gibt es?',
-    answer: 'AI Shift Drift bietet 4 kostenlose Scanner: AEO-Scanner (Website-Lesbarkeit für KI), GEO-Scanner (digitaler Ruf und Reputation), Agent-Readiness-Scanner (Buchbarkeit für KI-Agenten) und Security-Scanner (Schutz vor KI-Angriffen wie Fake-Bewertungen).',
+    question: 'Warum gibt es AI-Shift-Drift und warum jetzt?',
+    answer: 'Weil KI-Agenten bereits einkaufen, buchen und kontaktieren, und die meisten Restaurants dafür nicht bereit sind. ChatGPT, Perplexity und Gemini handeln zunehmend autonom im Auftrag von Nutzern. Wer technisch nicht zugänglich ist, wird übersprungen. Der Wandel passiert gerade, nicht irgendwann.',
   },
   {
-    question: 'Warum reicht Sichtbarkeit allein nicht?',
-    answer: 'Ein Restaurant kann perfekt für ChatGPT optimiert sein. Aber wenn ein KI-Agent keinen Tisch buchen kann, bringt die Sichtbarkeit nichts. Und wenn Fake-Bewertungen den Ruf zerstören, hilft auch die beste Buchbarkeit nicht. Alle drei Säulen müssen zusammen stimmen: sichtbar, nutzbar, sicher.',
+    question: 'Ich hab eine Website und bin bei Google. Warum reicht das nicht mehr?',
+    answer: 'Weil deine Gäste zunehmend ChatGPT, Perplexity oder Gemini fragen. Diese Systeme lesen deine Website anders als Google. Wer dort nicht sichtbar ist, existiert für einen wachsenden Teil der Gäste schlicht nicht.',
   },
   {
-    question: 'Was ist der Unterschied zwischen AEO und GEO?',
-    answer: 'AEO (Answer Engine Optimization) prüft ob KI-Systeme deine Website lesen und zitieren können. GEO (Generative Engine Optimization) prüft deinen digitalen Ruf: Bewertungen, Erwähnungen, Brancheneinträge. Ein Restaurant braucht beides um für KI sichtbar zu sein.',
+    question: 'Was ist der Unterschied zwischen AEO, GEO, Slipstream und Quantum?',
+    answer: 'Wake / AEO misst, ob ChatGPT deine Website lesen und zitieren kann. Wake / GEO misst, ob ChatGPT deinen Ruf kennt: Bewertungen, Erwähnungen, Profil. Slipstream misst, ob KI-Agenten durch deine digitale Infrastruktur handeln können. Quantum misst, wie sicher du gegen KI-gestützte Angriffe aufgestellt bist. Vier verschiedene Fragen, ein Gesamtbild.',
   },
   {
-    question: 'Was kostet das?',
-    answer: 'Alle 4 Scans sind kostenlos. Du bekommst deinen Score und eine Übersicht der Kriterien. Den vollständigen Aktionsplan mit priorisierten Maßnahmen gibt es nach Email-Eingabe.',
+    question: 'Ich hab keine Zeit für sowas. Wie lang dauert ein Scan?',
+    answer: 'Unter 60 Sekunden. URL eingeben, fertig. Den Rest macht AI-Shift-Drift. Was du danach hast: einen konkreten Score und eine priorisierte Liste, was du oder dein Webentwickler ändern muss. Keine Theorie, keine Agenturpräsentation.',
   },
   {
-    question: 'Wie schnell sehe ich Ergebnisse?',
-    answer: 'Der Scan dauert 60 Sekunden. Erste Verbesserungen können innerhalb von 1-2 Wochen in KI-Suchen sichtbar werden.',
+    question: 'Ich bin Gastronom / Hotelier / Café-Betreiber, das ist doch nichts für mich?',
+    answer: 'Doch, genau für dich. Gäste fragen ChatGPT nach Restaurantempfehlungen, KI-Agenten buchen Tische, Fake-Bewertungen bedrohen deinen Ruf. Jeder Gastro-Betrieb mit einer Website braucht AI-Readiness.',
+  },
+  {
+    question: 'Ich hab meinen Score. Was jetzt? Was ändert sich konkret in meinem Business?',
+    answer: 'Wer seine Scores auf über 80 bringt, taucht in KI-Antworten auf, kann von Agenten genutzt werden, ist sicher. Neue Anfragen, zusätzlicher Umsatz ohne Werbebudget.',
+  },
+  {
+    question: 'Ich hab das schon mal bei einer Agentur machen lassen. Was ist der Unterschied?',
+    answer: 'Agenturen optimieren für Google von gestern. AI-Shift-Drift misst die Kanäle von morgen: KI-Sichtbarkeit, Agenten-Nutzbarkeit, KI-Sicherheit. Das sind neue Disziplinen, für die es bisher kein einheitliches Messinstrument gab.',
   },
   {
     question: 'Was passiert mit meinen Daten?',
-    answer: 'Wir speichern keine Website-Inhalte. Der Scan läuft in Echtzeit und die Ergebnisse werden nur in deinem Browser angezeigt.',
+    answer: 'AI-Shift-Drift scannt nur öffentlich zugängliche Informationen, genau das, was KI-Systeme auch sehen. Keine Zugangsdaten, kein Login, kein Eingriff in deine Systeme. DSGVO-konform, Made in Germany.',
   },
   {
-    question: 'Mein Restaurant hat viele Google-Bewertungen. Reicht das nicht?',
-    answer: 'Google-Bewertungen sind ein Faktor, aber nicht alles. ChatGPT liest primär strukturierte Website-Inhalte. Ohne Schema Markup, FAQ-Seite und maschinenlesbaren Content bleibt dein Restaurant unsichtbar. Und Bewertungen allein machen dein Restaurant weder buchbar für KI-Agenten noch sicher vor Fake-Angriffen.',
+    question: 'Muss ich danach meine Website neu bauen?',
+    answer: 'Meistens nicht. Die meisten Verbesserungen sind kleine technische Anpassungen: strukturierte Daten, FAQ-Format, Konsistenz in Verzeichnissen. Was du bzw. dein Webentwickler in ein bis zwei Stunden umsetzen kann, hat oft den größten Effekt.',
+  },
+  {
+    question: 'Ist das einmalig oder brauche ich das regelmäßig?',
+    answer: 'KI-Systeme lernen laufend. Was heute gut ist, kann in drei Monaten veraltet sein. Deshalb macht AI-Shift-Drift einen zweiten Kanal messbar. Nicht einmalig, sondern als laufendes Signal, ob dein Restaurant im KI-Raum sichtbar bleibt.',
   },
 ]
 
