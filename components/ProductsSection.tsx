@@ -171,7 +171,7 @@ export default function ProductsSection() {
                 className="inline-block mt-2 px-5 py-2 rounded-full text-xs font-semibold tracking-wide border transition-colors duration-200 hover:bg-white/10"
                 style={{ borderColor: "#FF1744", color: "#FF1744" }}
               >
-                Sicherheit prüfen
+                Jetzt prüfen
               </span>
             </div>
           </a>

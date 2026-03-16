@@ -40,7 +40,7 @@ export default function HeroSection() {
               className="block px-12 py-4 rounded-full font-semibold text-base tracking-wide text-white"
               style={{ background: "#000008" }}
             >
-              Restaurant kostenlos scannen
+              Restaurant kostenlos prüfen
             </span>
           </a>
         </div>
