@@ -20,11 +20,10 @@ export default function NewsroomOverview() {
           alt="KI-Gastro-Newsroom"
           className="w-10 h-10 rounded-lg object-cover"
         />
-        <h1 className="text-3xl font-bold text-white">KI-Gastro-Newsroom</h1>
+        <h1 className="text-3xl font-bold text-white">KI-Insider für Gastro. Jeden Montag.</h1>
       </div>
       <p className="text-gray-400 mb-12 text-sm">
-        KI-Insider für Gastro. Jeden Montag.<br/>
-        <span className="text-gray-500">Wer das nicht liest, erfährt es von der Konkurrenz.</span>
+        Wer das nicht liest, erfährt es von der Konkurrenz.
       </p>
 
       {articles.length === 0 ? (
