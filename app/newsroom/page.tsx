@@ -4,11 +4,18 @@ import Link from 'next/link'
 
 type Article = { slug: string; kw: number; year: number; date: string; headline: string; monthLabel?: string }
 
+const MONTH_INDEX: Record<string, string> = {
+  'Januar': '01', 'Februar': '02', 'März': '03', 'April': '04',
+  'Mai': '05', 'Juni': '06', 'Juli': '07', 'August': '08',
+  'September': '09', 'Oktober': '10', 'November': '11', 'Dezember': '12'
+}
+
 function groupByMonth(articles: Article[]) {
   const groups: Record<string, Article[]> = {}
   articles.forEach(article => {
     const parts = article.date.split(' ')
-    const key = `${parts[2]}-${parts[1]}`
+    const monthNum = MONTH_INDEX[parts[1]] || '00'
+    const key = `${parts[2]}-${monthNum}`
     const label = `${parts[1]} ${parts[2]}`
     if (!groups[key]) groups[key] = []
     groups[key].push({ ...article, monthLabel: label })
