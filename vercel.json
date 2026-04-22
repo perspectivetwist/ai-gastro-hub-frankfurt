@@ -3,6 +3,12 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ai-gastro-hub-frankfurt.vercel.app"
+        }
+      ],
       "destination": "https://www.ki-gastronomie.com/staedte/frankfurt/$1",
       "permanent": true
     }
